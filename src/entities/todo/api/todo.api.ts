@@ -1,6 +1,8 @@
-// Здесь просто мок для песочницы
+
 import type { ITodo } from "@/entities/todo/model";
 
+
+// Моковые данные
 let todos: ITodo[] = [
   { id: "1", title: "Сделать FSD пример" },
   { id: "2", title: "Вывести todos в список" },
